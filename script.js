@@ -598,10 +598,14 @@ function openProjectModal(button) {
 
     // Image (avec fallback si l'image n'existe pas)
     modalImage.classList.remove('no-image');
-    modalImg.src = data.image || '';
-    modalImg.alt = data.title;
-    modalImg.onerror = () => modalImage.classList.add('no-image');
     modalImgFallback.textContent = data.title;
+
+    // IMPORTANT : on définit onerror AVANT de modifier src,
+    // sinon l'événement d'erreur ne sera pas capté.
+    modalImg.onerror = () => modalImage.classList.add('no-image');
+    modalImg.onload = () => modalImage.classList.remove('no-image');
+    modalImg.alt = data.title;
+    modalImg.src = data.image || '';
 
     // Textes
     modalCategory.textContent = data.category || '';
