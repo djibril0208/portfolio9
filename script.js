@@ -14,7 +14,7 @@ const projectsData = {
         category: 'Application web',
         title: 'Site Chauffeur VTC',
         subtitle: 'Plateforme de gestion de flotte VTC en architecture MVC',
-        image: 'images/projet1.jpg',
+        image: 'projet1.jpg',
         description: "Application web dédiée aux compagnies VTC pour piloter l'ensemble de leur activité. Les chauffeurs et gestionnaires accèdent à une interface intuitive permettant de gérer les courses, les véhicules et les utilisateurs depuis un tableau de bord centralisé.",
         features: [
             "Gestion complète du parc de véhicules (CRUD)",
@@ -30,7 +30,7 @@ const projectsData = {
         category: 'Application communautaire',
         title: 'BiblioShare',
         subtitle: 'Plateforme communautaire de partage de livres',
-        image: 'images/projet2.jpg',
+        image: 'projet2.jpg',
         description: "Plateforme web où les utilisateurs peuvent constituer leur bibliothèque numérique, ajouter de nouveaux ouvrages, les classer par genre et partager leur collection. Chaque livre est référencé avec son auteur, son année de publication et sa catégorie littéraire.",
         features: [
             "Inscription et authentification utilisateur",
@@ -46,7 +46,7 @@ const projectsData = {
         category: 'Application utilitaire',
         title: 'To Do List',
         subtitle: 'Application de gestion de tâches au quotidien',
-        image: 'images/projet3.jpg',
+        image: 'projet3.jpg',
         description: "Application web simple et efficace pour gérer ses tâches du quotidien. Création, édition, marquage comme effectuée ou suppression : tout est accessible en un clic. Système de couleurs pour distinguer rapidement le niveau d'urgence.",
         features: [
             "Création de tâches avec nom, description et date limite",
@@ -62,7 +62,7 @@ const projectsData = {
         category: 'Outil métier',
         title: 'Gestion Interventions Free',
         subtitle: 'Suivi automatisé des interventions techniciens chez les clients Free',
-        image: 'images/projet4.jpg',
+        image: 'projet4.jpg',
         description: "Outil interne destiné à automatiser la gestion des interventions des techniciens chez les clients de l'opérateur Free. Permet l'ajout de techniciens, de clients, et le suivi détaillé de chaque intervention avec son statut.",
         features: [
             "Gestion des techniciens (nom, prénom, email, téléphone, âge)",
@@ -78,7 +78,7 @@ const projectsData = {
         category: 'Site web pédagogique',
         title: 'Plateforme E-learning',
         subtitle: 'Espace d\'apprentissage du développement web',
-        image: 'images/projet5.jpg',
+        image: 'projet5.jpg',
         description: "Site de cours en ligne dédié à l'apprentissage du développement web. Le site présente une documentation technique structurée par sommaire, avec des explications progressives et des extraits de code colorisés pour chaque concept.",
         features: [
             "Sommaire interactif",
@@ -94,7 +94,7 @@ const projectsData = {
         category: 'FoodTech',
         title: "E-CAFET' — Click & Collect",
         subtitle: "Solution Click & Collect pour cafétéria d'entreprise",
-        image: 'images/projet6.jpg',
+        image: 'projet6.jpg',
         description: "Plateforme de pré-commande pour cafétéria : les utilisateurs consultent la carte du jour, ajoutent des plats au panier et réservent leur déjeuner depuis leur smartphone. Côté gestionnaire, un back-office complet permet d'administrer le menu et les commandes.",
         features: [
             "Carte interactive avec catégories de plats",
@@ -110,7 +110,7 @@ const projectsData = {
         category: 'Application web',
         title: 'FitConnect',
         subtitle: 'Plateforme de mise en relation sportif / coach',
-        image: 'images/projet7.jpg',
+        image: 'projet7.jpg',
         description: "Plateforme connectant les sportifs à des coachs personnels. Les utilisateurs définissent leurs objectifs et leurs disponibilités, et l'application leur attribue automatiquement le coach le mieux adapté à leur profil. Interface inspirée des sites de fitness modernes.",
         features: [
             "Matching automatique sportif / coach",
@@ -126,7 +126,7 @@ const projectsData = {
         category: 'Back-office',
         title: "Loca'Vélo",
         subtitle: 'Tableau de bord de gestion de location de vélos',
-        image: 'images/projet8.jpg',
+        image: 'projet8.jpg',
         description: "Système complet de gestion d'une activité de location de vélos. Tableau de bord avec indicateurs clés (vélos disponibles, en location, en maintenance), gestion des locations en cours, suivi des clients et calcul automatique du chiffre d'affaires.",
         features: [
             "Dashboard avec statistiques en temps réel",
@@ -142,7 +142,7 @@ const projectsData = {
         category: 'Application médicale',
         title: 'Système de réservation médicale',
         subtitle: 'Plateforme de prise de rendez-vous pour cabinet médical',
-        image: 'images/projet9.jpg',
+        image: 'projet9.jpg',
         description: "Plateforme complète de prise de rendez-vous pour un cabinet de kinésithérapie / ostéopathie. Le patient peut consulter le profil du praticien, ses certifications, et réserver son créneau directement en ligne. Côté praticien, un espace d'administration permet de gérer l'agenda et les patients.",
         features: [
             "Présentation du praticien (bio + certifications)",
@@ -158,7 +158,7 @@ const projectsData = {
         category: 'Infrastructure & ITSM',
         title: 'Gestion des incidents GLPI',
         subtitle: "Installation et configuration d'un serveur virtualisé Linux avec GLPI",
-        image: 'images/projet10.jpg',
+        image: 'projet10.jpg',
         description: "Mise en place d'une solution complète de gestion du parc informatique et des incidents utilisateurs grâce à GLPI, sur un serveur Linux virtualisé. Le projet a couvert toute la chaîne : installation du serveur, configuration des services, déploiement de GLPI et paramétrage du tableau de bord pour suivre tickets, incidents et matériel.",
         features: [
             "Installation d'un serveur virtualisé Linux",
@@ -175,7 +175,7 @@ const projectsData = {
         category: 'Projet professionnel · Alternance',
         title: 'Suivi des Extracts SOPROREAL',
         subtitle: "Outil d'administration des extractions automatisées SAP / VBS / EXE",
-        image: 'images/projet-pro1.png',
+        image: 'projet-pro1.png',
         description: "Outil PHP que j'ai conçu et développé en interne pour superviser l'ensemble des extractions de données automatisées du site Soproréal (L'Oréal). Le script lit en temps réel l'état des fichiers générés par les tâches Windows planifiées (SAP, VBS, EXE) et présente un tableau de bord clair indiquant pour chaque extraction : la dernière exécution, l'état des fichiers (à jour ou périmé) et un état global codifié par couleur (OK / Erreur Extraction).",
         features: [
             "Lecture automatique des dossiers d'extraction",
@@ -192,7 +192,7 @@ const projectsData = {
         category: 'Projet professionnel · Alternance',
         title: 'Migration serveur Workspace → Cloud',
         subtitle: "Migration d'infrastructure d'un environnement on-premise vers le Cloud",
-        image: 'images/projet-pro2.jpg',
+        image: 'projet-pro2.jpg',
         description: "Participation à un projet de migration d'un serveur de l'environnement Workspace interne vers une infrastructure Cloud du groupe L'Oréal. Mission qui m'a permis de découvrir concrètement les enjeux de la modernisation des infrastructures IT en milieu industriel.",
         features: [
             "Audit complet de l'existant (services, données, dépendances)",
@@ -209,7 +209,7 @@ const projectsData = {
         category: 'Projet professionnel · Alternance',
         title: "Animation d'un événement cybersécurité",
         subtitle: "Sensibilisation des collaborateurs L'Oréal aux risques numériques",
-        image: 'images/projet-pro3.jpg',
+        image: 'projet-pro3.jpg',
         description: "Co-animation d'un événement de sensibilisation à la cybersécurité organisé chez Soproréal — L'Oréal. L'objectif : former les collaborateurs aux bonnes pratiques face aux menaces numériques (phishing, ingénierie sociale, mots de passe faibles…) à travers des démonstrations concrètes et un stand interactif. Une journée pédagogique qui a réuni de nombreux salariés du site.",
         features: [
             "Animation d'une démonstration en direct sur le phishing",
