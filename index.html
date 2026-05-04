@@ -338,60 +338,77 @@
                     <span class="section-number">03</span>
                     <h2 class="section-title">Mes réalisations</h2>
                     <p class="section-description">
-                        Développement Web, applications métiers &amp; projets professionnels.
-                        Une sélection de réalisations issues de ma formation et de mon
-                        alternance, à travers lesquelles j'ai exploré différentes
-                        architectures (CRUD, MVC, POO) et des problématiques concrètes.
+                        Développement Web, applications métiers &amp; projets
+                        professionnels. Une sélection de réalisations issues de ma
+                        formation et de mon alternance, à travers lesquelles j'ai
+                        relevé des problématiques concrètes et exploré différentes
+                        technologies.
                     </p>
                 </div>
 
-                <!-- Boutons de téléchargement CV + Tableau de synthèse -->
+                <!-- Boutons CV + Tableau de synthèse (visualisation live + téléchargement) -->
                 <div class="downloads-bar reveal">
-                    <a href="CV_Djibril_BENIKHLEF.pdf" download class="download-btn">
-                        <span class="download-btn-icon">
-                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                                <polyline points="14 2 14 8 20 8"/>
-                                <line x1="16" y1="13" x2="8" y2="13"/>
-                                <line x1="16" y1="17" x2="8" y2="17"/>
-                                <polyline points="10 9 9 9 8 9"/>
-                            </svg>
-                        </span>
-                        <span class="download-btn-text">
-                            <span class="download-btn-label">Télécharger</span>
-                            <span class="download-btn-title">Mon CV</span>
-                        </span>
-                        <span class="download-btn-arrow">
+                    <div class="document-card">
+                        <button type="button" class="document-card-main" onclick="openPdfViewer('CV_Djibril_BENIKHLEF.pdf', 'Mon CV')">
+                            <span class="document-card-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                    <polyline points="14 2 14 8 20 8"/>
+                                    <line x1="16" y1="13" x2="8" y2="13"/>
+                                    <line x1="16" y1="17" x2="8" y2="17"/>
+                                    <polyline points="10 9 9 9 8 9"/>
+                                </svg>
+                            </span>
+                            <span class="document-card-text">
+                                <span class="document-card-label">Visualiser</span>
+                                <span class="document-card-title">Mon CV</span>
+                            </span>
+                            <span class="document-card-arrow">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <a href="CV_Djibril_BENIKHLEF.pdf" download class="document-card-download" aria-label="Télécharger le CV" title="Télécharger">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                                 <polyline points="7 10 12 15 17 10"/>
                                 <line x1="12" y1="15" x2="12" y2="3"/>
                             </svg>
-                        </span>
-                    </a>
+                        </a>
+                    </div>
 
-                    <a href="Tableau_synthese_Djibril.pdf" download class="download-btn">
-                        <span class="download-btn-icon">
-                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                                <line x1="3" y1="9" x2="21" y2="9"/>
-                                <line x1="3" y1="15" x2="21" y2="15"/>
-                                <line x1="9" y1="3" x2="9" y2="21"/>
-                                <line x1="15" y1="3" x2="15" y2="21"/>
-                            </svg>
-                        </span>
-                        <span class="download-btn-text">
-                            <span class="download-btn-label">Télécharger</span>
-                            <span class="download-btn-title">Tableau de synthèse</span>
-                        </span>
-                        <span class="download-btn-arrow">
+                    <div class="document-card">
+                        <button type="button" class="document-card-main" onclick="openPdfViewer('Tableau_synthese_Djibril.pdf', 'Tableau de synthèse')">
+                            <span class="document-card-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                    <line x1="3" y1="9" x2="21" y2="9"/>
+                                    <line x1="3" y1="15" x2="21" y2="15"/>
+                                    <line x1="9" y1="3" x2="9" y2="21"/>
+                                    <line x1="15" y1="3" x2="15" y2="21"/>
+                                </svg>
+                            </span>
+                            <span class="document-card-text">
+                                <span class="document-card-label">Visualiser</span>
+                                <span class="document-card-title">Tableau de synthèse</span>
+                            </span>
+                            <span class="document-card-arrow">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                            </span>
+                        </button>
+                        <a href="Tableau_synthese_Djibril.pdf" download class="document-card-download" aria-label="Télécharger le tableau de synthèse" title="Télécharger">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                                 <polyline points="7 10 12 15 17 10"/>
                                 <line x1="12" y1="15" x2="12" y2="3"/>
                             </svg>
-                        </span>
-                    </a>
+                        </a>
+                    </div>
                 </div>
 
                 <!-- Sous-titre catégorie : Formation -->
@@ -701,6 +718,34 @@
                         </div>
                     </article>
 
+                    <!-- ============== PROJET PRO 3 — ÉVÉNEMENT CYBERSÉCURITÉ ============== -->
+                    <article class="project-card reveal" data-project="cybersecurite">
+                        <div class="project-image">
+                            <img src="images/projet-pro3.jpg" alt="Événement cybersécurité L'Oréal" onerror="this.parentElement.classList.add('no-image')">
+                            <div class="project-image-fallback">Cybersécurité</div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-badge-pro">
+                                <span class="pulse-dot"></span>
+                                Projet professionnel
+                            </span>
+                            <h3 class="project-title">Animation cybersécurité L'Oréal</h3>
+                            <p class="project-description">
+                                Co-animation d'un atelier de sensibilisation à la
+                                cybersécurité auprès des collaborateurs Soproréal —
+                                L'Oréal. Démonstration d'attaques de phishing, conseils
+                                de protection et stand interactif sur les bonnes pratiques.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Cybersécurité</span>
+                                <span class="tag">Phishing</span>
+                                <span class="tag">Sensibilisation</span>
+                                <span class="tag">Animation</span>
+                            </div>
+                            <button type="button" class="project-link" onclick="openProjectModal(this)">Voir le projet <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></button>
+                        </div>
+                    </article>
+
                 </div>
             </div>
         </section>
@@ -787,13 +832,14 @@
                     </article>
 
                     <article class="timeline-card reveal">
-                        <span class="timeline-year">PHP 8+</span>
+                        <span class="timeline-year">PHP 8.5</span>
                         <h4>Aujourd'hui</h4>
-                        <p class="timeline-innovation">Frameworks &amp; sécurité</p>
+                        <p class="timeline-innovation">Pipe operator &amp; URI Extension</p>
                         <p>
-                            Écosystème mature avec Laravel, Symfony, et sécurité renforcée
-                            grâce à <strong>PDO</strong> contre les injections SQL.
-                            JIT pour des performances accrues.
+                            Sortie en novembre 2025, PHP 8.5 introduit l'opérateur
+                            <strong>pipe |&gt;</strong>, le <em>clone with</em> et une
+                            extension URI native. Écosystème mature : Laravel, Symfony,
+                            FrankenPHP. Sécurité renforcée via <strong>PDO</strong>.
                         </p>
                     </article>
                 </div>
@@ -1040,6 +1086,52 @@
                     <h4>🎯 Contexte</h4>
                     <p id="modalContext"></p>
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================================== -->
+    <!-- ===   MODAL PDF VIEWER (CV / Synthèse)     === -->
+    <!-- ============================================== -->
+    <div class="pdf-modal" id="pdfModal" aria-hidden="true">
+        <div class="pdf-modal-overlay" onclick="closePdfViewer()"></div>
+        <div class="pdf-modal-content" role="dialog" aria-modal="true">
+            <div class="pdf-modal-header">
+                <div class="pdf-modal-title-wrapper">
+                    <span class="pdf-modal-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                        </svg>
+                    </span>
+                    <h3 class="pdf-modal-title" id="pdfModalTitle">Document</h3>
+                </div>
+                <div class="pdf-modal-actions">
+                    <a id="pdfModalDownload" href="#" download class="pdf-modal-action" title="Télécharger" aria-label="Télécharger">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                    </a>
+                    <a id="pdfModalNewTab" href="#" target="_blank" rel="noopener" class="pdf-modal-action" title="Ouvrir dans un nouvel onglet" aria-label="Ouvrir dans un nouvel onglet">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </a>
+                    <button class="pdf-modal-action pdf-modal-close" onclick="closePdfViewer()" aria-label="Fermer">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"/>
+                            <line x1="6" y1="6" x2="18" y2="18"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="pdf-modal-body">
+                <iframe id="pdfModalFrame" src="" title="PDF Viewer"></iframe>
             </div>
         </div>
     </div>

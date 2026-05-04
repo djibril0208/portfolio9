@@ -204,6 +204,23 @@ const projectsData = {
         ],
         tags: ['Cloud', 'Workspace', 'Infrastructure', 'Migration', 'IT'],
         context: "Projet réalisé en équipe chez Soproréal — L'Oréal. Une expérience formatrice qui m'a fait toucher à des problématiques d'architecture, de sécurité et de gestion de projet IT à l'échelle d'un grand groupe."
+    },
+    'cybersecurite': {
+        category: 'Projet professionnel · Alternance',
+        title: "Animation d'un événement cybersécurité",
+        subtitle: "Sensibilisation des collaborateurs L'Oréal aux risques numériques",
+        image: 'images/projet-pro3.jpg',
+        description: "Co-animation d'un événement de sensibilisation à la cybersécurité organisé chez Soproréal — L'Oréal. L'objectif : former les collaborateurs aux bonnes pratiques face aux menaces numériques (phishing, ingénierie sociale, mots de passe faibles…) à travers des démonstrations concrètes et un stand interactif. Une journée pédagogique qui a réuni de nombreux salariés du site.",
+        features: [
+            "Animation d'une démonstration en direct sur le phishing",
+            "Présentation des solutions de protection (filtres, double authentification…)",
+            "Stand interactif avec quiz et goodies cybersécurité",
+            "Échanges avec les collaborateurs sur leurs pratiques quotidiennes",
+            "Remise de supports pédagogiques (flyers, QR codes vers ressources)",
+            "Communication aux côtés de l'équipe IT et RSSI"
+        ],
+        tags: ['Cybersécurité', 'Phishing', 'Sensibilisation', 'Animation', 'Communication'],
+        context: "Événement organisé chez Soproréal — L'Oréal dans le cadre du mois de la cybersécurité. Une mission qui m'a permis de développer mes soft skills (prise de parole, pédagogie, vulgarisation technique) tout en consolidant mes connaissances en sécurité informatique. Un complément précieux à mon profil de futur développeur, qui doit penser sécurité dès la conception."
     }
 };
 
@@ -217,67 +234,67 @@ const projectsData = {
    ================================================== */
 const articles = [
     {
-        title: "PHP 8.4 disponible : property hooks et nouveaux types",
-        description: "La nouvelle version stable de PHP introduit les property hooks, un héritage asymétrique et plusieurs améliorations de performance. Une mise à jour très attendue par la communauté.",
+        title: "PHP 8.5.2 : dernière version stable disponible",
+        description: "La PHP Foundation a publié la version 8.5.2 le 15 janvier 2026. Elle apporte des correctifs de bugs et continue d'enrichir la branche 8.5 lancée en novembre 2025, désormais la version recommandée pour la production.",
         category: "Release",
-        date: "21 novembre 2024",
+        date: "15 janvier 2026",
         source: "PHP.net",
         url: "https://www.php.net/"
     },
     {
-        title: "Laravel 11 : ce qui change pour les développeurs",
-        description: "Laravel poursuit sa simplification avec une nouvelle structure de dossiers minimaliste, le retour des Casts en classe et une intégration améliorée de Pest pour les tests.",
+        title: "PHP 8.5 GA : pipe operator, clone with et URI Extension",
+        description: "La PHP Foundation officialise PHP 8.5 « Smarter, Faster, Built for Tomorrow ». Au menu : opérateur pipe (|>), clone with modifications, nouvelle extension URI native, array_first() / array_last(), attribut #[\\NoDiscard] et OPcache toujours compilé.",
+        category: "Release",
+        date: "20 novembre 2025",
+        source: "PHP Foundation",
+        url: "https://www.php.net/"
+    },
+    {
+        title: "PHP 8.1 a atteint sa fin de vie",
+        description: "Depuis le 31 décembre 2025, PHP 8.1 ne reçoit plus aucun correctif de sécurité. Les hébergeurs migrent automatiquement les sites concernés vers PHP 8.4 ou 8.5. Une étape majeure pour la santé de l'écosystème.",
+        category: "Sécurité",
+        date: "31 décembre 2025",
+        source: "PHP.net",
+        url: "https://www.php.net/"
+    },
+    {
+        title: "Symfony 7.4 LTS et 8.0 : double sortie simultanée",
+        description: "Symfony adopte une stratégie inédite avec deux versions majeures lancées en même temps. La 7.4 LTS bénéficie de correctifs jusqu'en 2028 (PHP 8.2+), tandis que la 8.0 exige PHP 8.4+ et intègre nativement le worker mode FrankenPHP.",
         category: "Framework",
-        date: "12 mars 2024",
+        date: "novembre 2025",
+        source: "Symfony Blog",
+        url: "https://symfony.com/blog"
+    },
+    {
+        title: "FrankenPHP rejoint officiellement la PHP Foundation",
+        description: "Le runtime alternatif FrankenPHP, qui annonce ~15 000 req/sec en mode worker contre ~4 000 pour PHP-FPM, est désormais soutenu par la PHP Foundation. Une révolution pour les performances en production.",
+        category: "Performance",
+        date: "octobre 2025",
+        source: "PHP Foundation",
+        url: "#"
+    },
+    {
+        title: "État de PHP 2026 : adoption massive de PHP 8.x",
+        description: "Le rapport annuel « State of PHP » 2026 confirme une adoption de 89 % pour PHP 8.x parmi 1 720 développeurs sondés. Laravel domine (64 %), suivi de PHPStan (36 %, +9 pts) et Pest (17 %).",
+        category: "Étude",
+        date: "10 janvier 2026",
+        source: "Dev Newsletter",
+        url: "#"
+    },
+    {
+        title: "Laravel 12 : zéro breaking change, place à Laravel Cloud",
+        description: "Laravel 12 sort sans rupture de compatibilité, accompagné des nouveaux services Laravel Cloud et Nightwatch (monitoring intégré). L'écosystème poursuit sa stratégie de plateforme tout-en-un.",
+        category: "Framework",
+        date: "2025",
         source: "Laravel News",
         url: "#"
     },
     {
-        title: "Symfony 7 stable : performance et flexibilité",
-        description: "La nouvelle version majeure de Symfony mise sur la rapidité, l'autoconfiguration et une compatibilité étendue avec PHP 8.3. Idéale pour les applications d'envergure.",
-        category: "Framework",
-        date: "30 novembre 2023",
-        source: "Symfony Blog",
-        url: "#"
-    },
-    {
-        title: "Sécurité PHP : pourquoi PDO reste indispensable en 2025",
-        description: "Les requêtes préparées via PDO restent la méthode standard pour se prémunir des injections SQL. Tour d'horizon des bonnes pratiques actuelles.",
-        category: "Sécurité",
-        date: "15 février 2025",
-        source: "PHP The Right Way",
-        url: "#"
-    },
-    {
-        title: "POO en PHP : comprendre les traits et les interfaces",
-        description: "Au-delà des classes, traits et interfaces permettent de structurer le code de manière flexible. Guide pratique avec exemples concrets pour le BTS SIO.",
-        category: "POO",
-        date: "08 janvier 2025",
-        source: "Grafikart",
-        url: "#"
-    },
-    {
-        title: "MVC vs Clean Architecture : quel modèle pour mon projet ?",
-        description: "Comparaison des deux approches d'architecture les plus populaires en PHP. Quand préférer le MVC classique, et quand basculer vers une architecture plus stricte ?",
-        category: "Architecture",
-        date: "22 octobre 2024",
-        source: "Stitcher.io",
-        url: "#"
-    },
-    {
-        title: "Composer 2.7 : gestion de dépendances modernisée",
-        description: "L'outil incontournable de gestion de paquets PHP poursuit son évolution avec un meilleur support des audits de sécurité et une vitesse d'installation accrue.",
-        category: "Outils",
-        date: "05 février 2024",
-        source: "Composer",
-        url: "#"
-    },
-    {
-        title: "PHP & Docker : industrialiser ses environnements de dev",
-        description: "Pourquoi et comment utiliser Docker pour ses projets PHP : stack reproductible, isolation des versions et déploiement simplifié. Un must pour les projets d'équipe.",
-        category: "DevOps",
-        date: "18 mars 2024",
-        source: "Le Blog du Codeur",
+        title: "PHP fête ses 30 ans en 2025",
+        description: "Créé en 1995 par Rasmus Lerdorf, PHP a célébré son 30ᵉ anniversaire. Toujours présent sur ~72 % des sites web utilisant un langage serveur identifiable, le langage continue d'évoluer avec l'ouverture de PHP 8.6 (partial function application déjà approuvée).",
+        category: "Histoire",
+        date: "2025",
+        source: "PHP Foundation",
         url: "#"
     }
 ];
@@ -642,12 +659,56 @@ function closeProjectModal() {
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeProjectModal();
+        closePdfViewer();
     }
 });
 
 // Expose globalement (utilisé via onclick="openProjectModal(this)")
 window.openProjectModal = openProjectModal;
 window.closeProjectModal = closeProjectModal;
+
+
+/* ==================================================
+   11. PDF VIEWER (CV + Tableau de synthèse)
+   ================================================== */
+function openPdfViewer(pdfPath, title) {
+    const modal = document.getElementById('pdfModal');
+    const frame = document.getElementById('pdfModalFrame');
+    const titleEl = document.getElementById('pdfModalTitle');
+    const downloadBtn = document.getElementById('pdfModalDownload');
+    const newTabBtn = document.getElementById('pdfModalNewTab');
+
+    if (!modal || !frame) return;
+
+    // Met à jour le contenu
+    frame.src = pdfPath;
+    titleEl.textContent = title || 'Document';
+    if (downloadBtn) downloadBtn.href = pdfPath;
+    if (newTabBtn) newTabBtn.href = pdfPath;
+
+    // Affiche la modal
+    modal.classList.add('active');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+}
+
+function closePdfViewer() {
+    const modal = document.getElementById('pdfModal');
+    const frame = document.getElementById('pdfModalFrame');
+    if (!modal) return;
+
+    modal.classList.remove('active');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+
+    // Vide l'iframe pour stopper le PDF (et libérer la mémoire)
+    setTimeout(() => {
+        if (frame) frame.src = '';
+    }, 300);
+}
+
+window.openPdfViewer = openPdfViewer;
+window.closePdfViewer = closePdfViewer;
 
 
 /* ==================================================
